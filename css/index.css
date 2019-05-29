@@ -1,0 +1,27 @@
+.home {
+  margin: .4rem;
+}
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.search input {
+  width: 100%;
+  font-size: 15px;
+  border:1px solid rgba(225,229,243,1);
+  /* height: 1.173333rem; */
+  border-radius: 6px;
+  padding-left: .373333rem;
+}
+.search .btn {
+  display: inline-block;
+  width: 1.706667rem;
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  text-align: center;
+  font-size: 15px;
+  background: #52BE93;
+  color: #fff;
+  border-radius:6px;
+}
