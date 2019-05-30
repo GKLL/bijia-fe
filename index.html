@@ -2,26 +2,98 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- head 中 -->
-  <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css">
-  <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.1/css/jquery-weui.min.css">
   <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/weui.min.css">
+  <link rel="stylesheet" href="./css/jquery-weui.min.css">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/index.css">
-  <title>Document</title>
+  <title>B值比价</title>
 </head>
 <body>
-  <section class="home">
-    <header class="header">
+  <section>
+    <header class="header home">
       <div class="search">
-        <input />
+        <input placeholder="搜索产品、公司名称"/>
         <a class="btn">搜索</a>
       </div>
-    <header>
-  </header>
+    </header>
+    <main class="content home">
+      <!-- 家庭构险计划图-->
+      <section class="bijia-banner">
+        <img src="./img/banner.png" alt=""/>
+      </section>
+      <!-- banner图-->
+      <section class="bijia-swip mt-20">
+        <div>
+          <img src="./img/guide.png" alt=""/>
+          <p class="tips">定期寿险选购指南</p>
+        </div>
+        <div>
+          <img src="./img/treasure.png" alt=""/>
+          <p class="tips">重疾险购买宝典</p>
+        </div>
+        <div>
+          <img src="./img/term.png" alt=""/>
+          <p class="tips">保障期限如何确定</p>
+        </div>
+      </section>
+    </main>
+    <!-- 选择险种进行比价 -->
+    <section class="bijia-mian-info home">
+      <h2>选择险种进行比价</h2>
+      <div class="bijia-icons">
+        <div>
+          <div>
+            <img src="./img/serious.png" alt=""/>
+          </div>
+          <p class="bijia-icon-tips">重疾</p>
+        </div>
+        <div>
+          <div>
+            <img src="./img/insurance.png" alt=""/>
+          </div>
+          <p class="bijia-icon-tips">寿险</p>
+        </div>
+        <div>
+          <div>
+            <img src="./img/care.png" alt=""/>
+          </div>
+          <p class="bijia-icon-tips">医疗</p>
+        </div>
+        <div>
+          <div>
+            <img src="./img/accident.png" alt=""/>
+          </div>
+          <p class="bijia-icon-tips">意外</p>
+        </div>
+        <div>
+          <div>
+            <img src="./img/cancer.png" alt=""/>
+          </div>
+          <p class="bijia-icon-tips">防癌</p>
+        </div>
+        <div>
+          <div>
+            <img src="./img/pension.png" alt=""/>
+          </div>
+          <p class="bijia-icon-tips">储蓄养老</p>
+        </div>
+        <div>
+          <div>
+            <img src="./img/raise.png" alt=""/>
+          </div>
+          <p class="bijia-icon-tips">教育年金</p>
+        </div>
+      </div>
+    </section>
+    <!-- 我的对比 -->
+    <section class="comparison">
+      <img src="./img/comparison.png" alt=""/>
+    </section>
+  </section>
 <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/jquery-weui.min.js"></script>
 </body>
