@@ -1,6 +1,4 @@
-.deploy {
 
-}
 .deploy-top {
   padding-top: .4rem;
   background: #fafafa;
@@ -58,6 +56,15 @@
   font-size:17px;
   font-family:PingFangSC-Medium;
   color:rgba(139,147,166,1);
+}
+
+.deploy-content-item > h2 > span{
+  display: inline-block;
+  padding-top: .066667rem;
+  font-size:14px;
+  font-family:PingFangSC-Regular;
+  display: inline-block;
+  float: right;
 }
 .deploy-content-item-sex {
   margin-top: .266667rem;
@@ -127,7 +134,9 @@
   background: #52BE93;
 }
 
-
+.deploy-content-item-insure {
+  margin-top: .266667rem;
+}
 
 .deploy-content-item-insure span{
   display: inline-block;
