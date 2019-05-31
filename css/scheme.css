@@ -178,7 +178,7 @@
 .scheme-product {
   background: #52BE93;
   width: 100%;
-  padding-bottom: .8rem;
+  /* padding-bottom: 1.466667rem; */
   position: relative;
 }
 .scheme-product-title {
@@ -287,7 +287,7 @@
 .scheme-other-product {
   background: #fff;
   border-radius:34px 34px 0 0;
-  padding-bottom: .4rem;
+  padding-bottom: 1.466667rem;
   margin-top: .4rem;
 }
 
@@ -297,5 +297,51 @@
   padding: .4rem .4rem 0;
 }
 .current {
-  background: #FEC76D;
+  background: #FEC76D!important;
+}
+
+.scheme-footer {
+  height: 1.306667rem;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
+.scheme-footer > div:nth-child(2) {
+  width: 6.08rem;
+  color: #fff;
+  background: #52BE93;
+  font-size: 16px;
+  height: 100%;
+  text-align: center;
+  line-height: 1.306667rem;
+}
+.scheme-icon {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  justify-content: space-around;
+  width: 3.92rem;
+}
+.scheme-icon i {
+  font-size: 20px;
+}
+.scheme-icon p {
+  color:rgba(102,102,102,1);
+  font-size: 12px;
+}
+
+.comparison {
+  float: right;
+  margin-right: .72rem;
+  margin-top: .2rem;
+  position: fixed;
+  bottom: 1.333333rem;
+  right: .4rem;
+}
+.comparison img {
+  display: inline-block;
+  height: 1.653333rem;
 }

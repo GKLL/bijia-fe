@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="./css/jquery-weui.min.css">
   <link rel="stylesheet" href="./css/scheme.css">
   <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/deploy.css">
   <title>方案</title>
 </head>
 <body>
@@ -113,7 +112,7 @@
             <h2>
                 产品方案
             </h2>
-            <div>
+            <div id="editor">
                 <img src="./img/bianji@2x.png" alt=""/><span>编辑</span>
             </div>
           </div>
@@ -126,7 +125,7 @@
                 <p>轻症重疾 | 重大疾病 | 保费豁免</p>
               </div>
               <div>
-                <a >-取消PK</a>
+                <a class="scheme-pk">-取消PK</a>
               </div>
             </div>
             <div class="scheme-progress">
@@ -193,19 +192,48 @@
                 <div class="scheme-progress-money"><span>保费</span><span>¥3125.00</span></div>
               </div>
             </div>
+            <section class="comparison">
+              <a href=""><img src="./img/comparison.png" alt=""/></a>
+            </section>
           </section>
        </section>
     </main>
+    <footer class="scheme-footer">
+      <div class="scheme-icon">
+        <div><i class="iconfont iconicon-test"></i><p>首页</p></div>
+        <div><i class="iconfont iconkefu"></i><p>客服</p></div>
+        <div><a href="./comment.html"><i class="iconfont iconpinglun"></i><p>评论</p></a></div>
+      </div>
+      <div>
+          进入微信查看
+      </div>
+    </footer>
   </section>
 <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/jquery-weui.min.js"></script>
 <script>
   $(function(){
     $(".scheme-pk").click(function(){
-      
-      $(this).css('background', '#FEC76D');
-      $(this).text('+加入PK')
+      if($(this).hasClass('current')){
+        $(this).text('-取消PK');
+        $(this).removeClass('current');
+      } else {
+        $(this).addClass('current');
+        $(this).text('+加入PK');
+      }
     });
+
+    $('#editor').click(function() {
+      $.confirm({
+        title: '标题',
+        text: '内容文案',
+        onOK: function () {
+          //点击确认
+        },
+        onCancel: function () {
+        }
+      });
+    })
   });
 </script>
 </body>
