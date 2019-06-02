@@ -27,3 +27,18 @@ select {
 }
 
 select::-ms-expand { display: none; } 
+
+.repert-checkout input[type='checkbox']{
+  width: .4rem;
+  height: .4rem;
+  background-color: #fff;
+  -webkit-appearance:none;
+  border: 1px solid #979797;
+  border-radius: 2px;
+  outline: none;
+}
+
+.repert-checkout input[type=checkbox]:checked{
+  background: url("../img/gou.png")no-repeat center;
+  background-size: 105%;
+}

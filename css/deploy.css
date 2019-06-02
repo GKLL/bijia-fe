@@ -184,6 +184,7 @@
   display: none;
 }
 .btn {
+  display: inline-block;
   width: 100%;
   height: 1.173333rem;
   line-height: 1.173333rem;

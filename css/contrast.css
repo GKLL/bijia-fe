@@ -1,0 +1,188 @@
+.contrast ul li {
+    list-style: none;
+    width: 100%;
+    background:#F5F6FA;
+    /* border-top:1px solid rgba(225,229,243,1); */
+}
+
+.contrast ul li p{
+    /* text-align: center; */
+}
+
+.menu_tab {
+    height: auto;
+  }
+  .contrast ul li > label {
+    display: block;
+    color: #000;
+    font-size: 16px;
+    background:#F5F6FA;
+    padding: .4rem;
+    border-bottom:1px solid rgba(225,229,243,1);
+  }
+  .contrast ul li >label > span {
+    display: inline-block;
+    margin-left: .266667rem;
+    color: #999999;
+  }
+  .contrast ul li >label::after {
+    content: " ";
+    float: right;
+    height: 28px;
+    width: 28px;
+    background: url('../img/bottom.png') no-repeat;
+    background-size: 100%;
+  }
+  .contrast ul li >label.selected::after {
+    content: ' ';
+    height: 19px;
+    width: 28px;
+    background: url('../img/top.png') no-repeat;
+  }
+  .tab_content {
+    display: none;
+    font-size: 15px;
+    padding: 0 .4rem;
+    background: #fff;
+    
+  }
+
+  .tab_content_box {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #E1E1E1;
+    padding: .4rem;
+  }
+  .tab_content-checkbox  {
+    width: 1.2rem;
+    text-align: center;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tab_content .weui-cells {
+      margin-top: 0;
+  }
+
+  .tab_content .weui-cell__bd p:nth-child(1) {
+    color:rgba(51,51,51,1);
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .tab_content .weui-cell__bd p:nth-child(2) {
+    margin-top: .133333rem;
+    font-size: 12px;
+    color:rgba(153,153,153,1);
+  }
+  .tab_content .weui-cell__bd p:nth-child(3) span:nth-child(1) {
+    margin-top: .133333rem;
+    font-size: 12px;
+    color:#52BE93;
+  }
+  .tab_content .weui-cell__bd p:nth-child(3) span:nth-child(2) {
+    margin-top: .133333rem;
+    font-size: 12px;
+    color:#999999;
+  }
+
+  .tab_content .weui-cell__bd p:nth-child(4) {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content: space-between;
+    margin-top: .266667rem;
+  }
+
+  .tab_content .weui-cell__bd p:nth-child(4) span:nth-child(1) {
+    color:rgba(255,151,90,1);
+    font-size: 14px;
+  }
+  .tab_content .weui-cell__bd p:nth-child(4) span:nth-child(2) {
+    color:#52BE93;
+    font-size: 14px;
+  }
+
+  .tab_content .weui-check__label {
+      border-bottom: 1px solid #E1E1E1;
+  }
+
+  footer {
+      width: 100%;
+      height: 1.306667rem;
+      display: -webkit-flex; /* Safari */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      bottom:0;
+      background: #fff;
+      font-size: 14px;
+      color: #666666;
+  } 
+  footer .weui-cells {
+      font-size: 16px;
+      margin-top: 0;
+      color: #333333;
+  }
+
+  footer > div:nth-child(4){
+    width: 2.026667rem;
+    height: 1.306667rem;
+    line-height: 1.306667rem;
+    background: #52BE93;
+    color:#fff;
+    text-align: center;
+}
+footer > div:nth-child(4) a {
+  color:#fff;
+}
+#checkAll {
+  text-align: center;
+  vertical-align: middle;
+}
+#checkAll > div {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  justify-content: center;
+  padding-left: .4rem;
+}
+#checkAll span{
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: .266667rem;
+  padding-top: 2px;
+}
+#checkAll input[type='checkbox']{
+  width: .6rem;
+  height: .6rem;
+  background-color: #fff;
+  -webkit-appearance:none;
+  border: 1px solid #979797;
+  border-radius: 50%;
+  outline: none;
+}
+
+#repert-checkout input[type=checkbox]:checked{
+  background: url("../img/gou.png")no-repeat center;
+  background-size: 105%;
+}
+
+.tab_content-checkbox > input[type='checkbox']{
+  width: .6rem;
+  height: .6rem;
+  background-color: #fff;
+  -webkit-appearance:none;
+  border: 1px solid #979797;
+  border-radius: 50%;
+  outline: none;
+}
+
+.tab_content-checkbox > input[type=checkbox]:checked{
+  background: url("../img/gou2.png")no-repeat center;
+  background-color: #52BE93;
+  border: 1px solid #52BE93;
+  background-size: 70%;
+}

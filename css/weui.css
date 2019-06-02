@@ -100,7 +100,7 @@ a{
 }
 .weui-icon-success{
   font-size:23px;
-  color:#09BB07;
+  color:#52BE93;
 }
 .weui-icon-waiting{
   font-size:23px;
@@ -116,11 +116,11 @@ a{
 }
 .weui-icon-success-circle{
   font-size:23px;
-  color:#09BB07;
+  color:#52BE93;
 }
 .weui-icon-success-no-circle{
   font-size:23px;
-  color:#09BB07;
+  color:#52BE93;
 }
 .weui-icon-waiting-circle{
   font-size:23px;
@@ -132,14 +132,14 @@ a{
 }
 .weui-icon-download{
   font-size:23px;
-  color:#09BB07;
+  color:#52BE93;
 }
 .weui-icon-info-circle{
   font-size:23px;
-  color:#09BB07;
+  color:#52BE93;
 }
 .weui-icon-safe-success{
-  color:#09BB07;
+  color:#52BE93;
 }
 .weui-icon-safe-warn{
   color:#FFBE00;
@@ -530,7 +530,7 @@ input.weui-btn_plain-default{
 .weui-cells_radio .weui-check:checked + .weui-icon-checked:before{
   display:block;
   content:'\EA08';
-  color:#09BB07;
+  color:#52BE93;
   font-size:16px;
 }
 .weui-cells_checkbox .weui-cell__hd{
@@ -544,7 +544,7 @@ input.weui-btn_plain-default{
 }
 .weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before{
   content:'\EA06';
-  color:#09BB07;
+  color:#52BE93;
 }
 .weui-label{
   display:block;
@@ -1217,7 +1217,7 @@ button.weui-vcode-btn{
 .weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon,
 .weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon > i,
 .weui-tabbar__item.weui-bar__item_on .weui-tabbar__label{
-  color:#09BB07;
+  color:#52BE93;
 }
 .weui-tabbar__icon{
   display:inline-block;
@@ -2162,7 +2162,7 @@ a.weui-media-box:active{
   display:none;
   margin-left:10px;
   line-height:28px;
-  color:#09BB07;
+  color:#52BE93;
   white-space:nowrap;
 }
 .weui-search-bar__input:not(:valid) ~ .weui-icon-clear{
@@ -2439,7 +2439,7 @@ input[type="search"]::-webkit-search-results-decoration{
   vertical-align:middle;
   text-decoration:inherit;
   content:"\EA08";
-  color:#09BB07;
+  color:#52BE93;
   font-size:13px;
   position:absolute;
   top:50%;

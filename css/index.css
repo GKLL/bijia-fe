@@ -67,28 +67,29 @@
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.bijia-icons > div {
+.bijia-icons > a {
+  display: block;
   margin-top: .4rem;
   margin-right: .32rem;
 }
-.bijia-icons > div:nth-child(4n) {
+.bijia-icons > a:nth-child(4n) {
   margin-right: 0;
 }
 /* .bijia-icons > div:nth-child(3) {
   margin-right: 0;
 } */
-.bijia-icons > div > div {
+.bijia-icons > a > div {
   width: 2.053333rem;
   height: 1.706667rem;
   background: #E8F3EF;
   text-align: center;
   line-height: 1.706667rem;
 }
-.bijia-icons > div > div > img {
+.bijia-icons > a > div > img {
   height: .68rem;
   vertical-align: middle;
 }
-.bijia-icons > div > p {
+.bijia-icons > a > p {
   color: #666666;
   font-size: 15px;
   text-align: center;
